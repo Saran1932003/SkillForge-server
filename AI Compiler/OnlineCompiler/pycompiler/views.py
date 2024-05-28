@@ -29,7 +29,7 @@ def runcode(request):
 
         # Add the OpenAI code here
         from openai import OpenAI
-        OPENAI_API_KEY = "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"
+        OPENAI_API_KEY = "REPLACE_YOUR_API_KEY"
         client = OpenAI(api_key=OPENAI_API_KEY)
         
         completion = client.chat.completions.create(
